@@ -42,7 +42,8 @@ API							*misc-api*
 		Completes the file under the cursor, with improved UX compared
 		to |i_CTRL-X_CTRL-F|. Trailing slashes are not autocompleted
 		and after insertion of `/`, files in the next directory are
-		automatically completed again.
+		automatically completed again. Uses the |isfname| to match
+		paths.
 
 	misc#thesaurus#thesaur()			*misc#thesaurus#thesaur()*
 		Consults a |thesaurusfunc| compatible integration of the
